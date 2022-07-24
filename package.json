@@ -1,0 +1,17 @@
+{
+  "name": "html-css-and-javascript-project9",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "boxicons": "^2.1.2",
+    "owl.carousel": "^2.3.4"
+  }
+}

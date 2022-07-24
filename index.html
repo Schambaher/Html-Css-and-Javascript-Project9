@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="src/css/app.css">
+
+    <title>Workout</title>
+  </head>
+  <body>
+
+    <header class="header-section">
+      <div class="container header-content">
+        <nav class="header-nav">
+          <h1 class="header-logo">
+            <i class="fa-solid fa-person-biking"></i>
+            Workout
+          </h1>
+
+          <button id="showNavigation" class="header-toggle">
+            <!-- <i class="fa-solid fa-bars"></i> -->
+          </button>
+
+          <div id="navigation" class="header-list-toggle">
+            <ul class="header-list-items">
+              <li class="header-item">Home</li>
+              <li class="header-item">About</li>
+              <li class="header-item">Classes</li>
+              <li class="header-item">Pages</li>
+              <li class="header-item">Contact</li>
+              <li class="header-item">
+                <span id="showForm">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <form id="form" class="header-form">
+            <div class="container header-form-content">
+              <span id="closeForm" class="header-form-close">
+                <i class="fa-solid fa-xmark"></i>
+              </span>
+              <div class="header-form-input">
+                <input 
+                  placeholder="search something..." 
+                  type="text"
+                >
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+              </div>
+            </div>
+          </form>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero owl-carousel owl-theme">
+
+      <div class="hero-item hero-bg-1">
+        <h2 class="hero-item-title">For the world of Fitness</h2>
+        <a class="item-button" href="">View classes</a>
+      </div>
+
+      <div class="hero-item hero-bg-2">
+        <h2 class="hero-item-title">For those who work out the hardest</h2>
+        <a class="item-button" href="">View classes</a>
+      </div>
+
+      <div class="hero-item hero-bg-3">
+        <h2 class="hero-item-title">15% Off for All New attendees</h2>
+        <a class="item-button" href="">View classes</a>
+      </div>
+
+      <div class="hero-item hero-bg-4">
+        <h2 class="hero-item-title">Best fitness center form Men & Women</h2>
+        <a class="item-button" href="">View classes</a>
+      </div>
+      
+    </section>
+
+    <section class="launch-section">
+      <div class="container launch-content">
+        <div class="launch-flex">
+          <h2 class="launch-title title-section">Fitness is the Answer</h2>
+          <h3 class="launch-header">Whenever the Question is your Physical Shape!</h3>
+          <p class="launch-text">
+            Sed in metus libero. Sed volutpat eget dui ut tempus. Fusce fring et illa tincidunt
+            laoreet
+            Morbi ac metus vitae diam sceler isque male suada eget eu mauris. Cras varius lorem ac velit pharetra,
+            non sc elerisque mi vulputate. Phasellus bibe ndum susc ipit nunc, non semper erat iaculis in. Nulla
+            magna vel euis amet metus.
+          </p>
+
+          <a class="launch-button item-button" href="">Read More</a>
+        </div>
+
+        <div class="launch-image">
+          <img src="/src/images/class.jpg" alt="clases gym">
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits-section">
+      <div class="container benefits-content">
+
+        <div class="benefits-item">
+          <div class="benefits-item-icon">
+            <i class="fa-solid fa-gear"></i>
+          </div>
+          <h3 class="benefits-item-title">Quality Service</h3>
+          <p class="benefits-item-text">
+            Vivamus a ligula quam. Dolor blandit eu leo non et init set ipsum corsec monec..
+          </p>
+        </div>
+
+        <div class="benefits-item">
+          <div class="benefits-item-icon">
+            <i class="fa-solid fa-id-card"></i>
+          </div>
+          <h3 class="benefits-item-title">Espacious Gym</h3>
+          <p class="benefits-item-text">
+            Vivamus a ligula quam. Dolor blandit eu leo non et init set ipsum corsec monec..
+          </p>
+        </div>
+
+        <div class="benefits-item">
+          <div class="benefits-item-icon">
+            <i class="fa-solid fa-file"></i>
+          </div>
+          <h3 class="benefits-item-title">Fitness Programms</h3>
+          <p class="benefits-item-text">
+            Vivamus a ligula quam. Dolor blandit eu leo non et init set ipsum corsec monec..
+          </p>
+        </div>
+
+        <div class="benefits-item">
+          <div class="benefits-item-icon">
+            <i class="fa-solid fa-users"></i>
+          </div>
+          <h3 class="benefits-item-title">Group Classes</h3>
+          <p class="benefits-item-text">
+            Vivamus a ligula quam. Dolor blandit eu leo non et init set ipsum corsec monec..
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-content">
+        <div class="contact-flex">
+          <h2 class="contact-title title-section">Start your workout now</h2>
+          <p class="contact-text">
+            Enter your name and email in the form below to get your first free workout at our fitness center.
+          </p>
+          <form class="contact-form">
+            <div class="contact-form-input">
+              <input placeholder="Your Name" type="text">
+            </div>
+            <div class="contact-form-input">
+              <input placeholder="Your Email" type="text">
+            </div>
+            <button class="contact-button item-button">Join now</button>
+            <span>*Only for 5 days</span>
+          </form>
+        </div>
+
+        <div class="contact-image">
+          <img src="src/images/image.png" alt="image form">
+        </div>
+      </div>
+    </section>
+
+    <section class="welcome-section">
+      <div class="container welcome-content">
+
+        <div class="welcome-image-col">
+          <img src="src/images/g4.jpg" alt="image 1">
+          <img src="src/images/g5.jpg" alt="image 2">
+          <img src="src/images/g7.jpg" alt="image 3">
+          <img src="src/images/g9.jpg" alt="image 4">
+        </div>
+
+        <div class="welcome-image-col">
+          <img src="src/images/g8.jpg" alt="image 5">
+          <img src="src/images/g6.jpg" alt="image 6">
+          <img src="src/images/g3.jpg" alt="image 7">
+        </div>
+
+        <div class="welcome-main-col">
+          <div class="welcome-main-info">
+            <h2 class="welcome-main-title title-section">Welcome to our fitness club</h2>
+            <p class="welcome-text">
+              Sed in metus libero. Sed volutpat eget dui ut tempus. Fusce fring et
+              illa tincidunt laoreet Morbi ac metus vitae diam sceler isque male suada eget eu mauris. Cras varius lorem ac velit pharetra, non sc elerisque mi vulputate.
+            </p>
+          </div>
+          <div class="welcome-main-image">
+            <div class="welcome-image-col">
+              <img src="src/images/g1.jpg" alt="image 8">
+              <img src="src/images/g4.jpg" alt="image 9">
+            </div>
+            <div class="welcome-image-col">
+              <img src="src/images/g2.jpg" alt="image 10">
+              <img src="src/images/g7.jpg" alt="image 11">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-section">
+      <div class="container blog-content">
+
+        <div class="blog-header">
+          <h3 class="blog-subtitle">Blog Posts</h3>
+          <h2 class="blog-title title-section">Most recent fitness post</h2>
+        </div>
+
+        <div class="blog-items">
+
+          <div class="blog-item">
+            <div class="blog-item-image">
+              <img src="src/images/blog1.jpg" alt="blog 1">
+            </div>
+            <h3 class="blog-item-title">
+              The heavy weight of olympics: power lifting for the pros
+            </h3>
+            <p class="blog-item-text">
+              Lorem ipsum dolor sit amet ipsum elit. Qui eligendi vitae sit isque male suada.
+            </p>
+            <div class="blog-item-user">
+              <div class="blog-item-user-image">
+                <img src="src/images/a1.jpg" alt="user 1">
+              </div>
+              <p class="blog-item-user-name">     
+                Maxwell ker
+              </p>
+              <p class="blog-item-user-date">
+                July 1, 2020
+              </p>
+            </div>
+          </div>
+
+          <div class="blog-item">
+            <div class="blog-item-image">
+              <img src="src/images/blog4.jpg" alt="blog 2">
+            </div>
+            <h3 class="blog-item-title">
+              If my last day of CrossFit were Tomorrow
+            </h3>
+            <p class="blog-item-text">
+              Lorem ipsum dolor sit amet ipsum elit. Qui eligendi vitae sit isque male suada.
+            </p>
+            <div class="blog-item-user">
+              <div class="blog-item-user-image">
+                <img src="src/images/a3.jpg" alt="user 2">
+              </div>
+              <p class="blog-item-user-name">     
+                Maxwell ker
+              </p>
+              <p class="blog-item-user-date">
+                July 1, 2020
+              </p>
+            </div>
+          </div>
+
+          <div class="blog-item">
+            <div class="blog-item-image">
+              <img src="src/images/blog2.jpg" alt="blog 3">
+            </div>
+            <h3 class="blog-item-title">
+              Keeping your Fitness Goals on Track at Work
+            </h3>
+            <p class="blog-item-text">
+              Lorem ipsum dolor sit amet ipsum elit. Qui eligendi vitae sit isque male suada.
+            </p>
+            <div class="blog-item-user">
+              <div class="blog-item-user-image">
+                <img src="src/images/a2.jpg" alt="user 3">
+              </div>
+              <p class="blog-item-user-name">     
+                Maxwell ker
+              </p>
+              <p class="blog-item-user-date">
+                July 1, 2020
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <footer class="footer-section">
+      <div class="container footer-content">
+        <div class="footer-info">
+          <div class="footer-flex">
+            <h3 class="footer-title">Address</h3>
+            <p class="footer-text">
+              New York, Alexandria, VA 2230, NY-90814 Hill Station 4th Street
+            </p>
+            <p class="footer-text-width">
+              <i class="fa-solid fa-location-dot"></i>
+              Find us on map
+            </p>
+          </div>
+          <div class="footer-flex">
+            <h3 class="footer-title">Get in touch</h3>
+            <p class="footer-text">Join the best GYM in your Town</p>
+            <p class="footer-text-width">
+              <i class="fa-solid fa-phone"></i>
+              +1-2345-678-11
+            </p>
+            <p class="footer-text">
+              <i class="fa-solid fa-envelope"></i>
+              mail@example.com
+            </p>
+          </div>
+          <div class="footer-flex">
+            <h3 class="footer-title">Opening hours</h3>
+            <p class="footer-text">We are working on</p>
+            <p class="footer-text">
+              <i class="fa-solid fa-clock"></i>
+              <span class="text-width">Mon-Fri</span>: 7am to 9pm
+            </p>
+            <p class="footer-text">
+              <i class="fa-solid fa-clock"></i>
+              <span class="text-width">Sat-Sun</span>: 10am to 8pm
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  <script src="/node_modules/jquery/dist/jquery.js"></script>
+  <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script type="module" src="src/js/owlCarrousel.js"></script>
+  <script src="src/js/main.js"></script>
+
+  </body>
+</html>
